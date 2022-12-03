@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal Information</title>
+	<style >
+		table,th,tr{
+			margin-right: auto;
+			margin-left: auto;
+			color: white;
+			background-color: green;
+		}
+		.buttons{
+			align-items: left;
+		}
+		#cap{
+			color: black;
+		}
+	</style>
+</head>
+<body>
+
+<form action="#">
+<table cellpadding="8" cellspacing="5" >
+	<caption id="cap"><h2>Personal Information</h2></caption>
+	<tr>
+		<td>
+			<label for="firstname">FIRST NAME</label>
+		</td>
+		<td>
+			<input type="text" name="firstname" maxlength="30">(max 30 characters a-z and A-Z)
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="lastname">LAST NAME</label>
+		</td>
+		<td>
+			<input type="text" name="lastname" maxlength="30">(max 30 characters a-z and A-Z)
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="birthdate">DATE OF BIRTH</label>
+		</td>
+		<td>
+			<input type="DATE" name="birthdate">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="emailid">EMAIL ID</label>
+		</td>
+		<td>
+			<input type="email" name="emailid">
+		</td>
+	</tr>	
+	<tr>
+		<td>
+			<label for="mobile">MOBILE NUMBER</label>
+		</td>
+		<td>
+			<input type="tel" name="phone" pattern="[0=9]{10}" maxlength="10">
+	(max 10 digit number)<br>
+	</tr>
+	<tr>
+		<td>
+			<label for="gender">GENDER</label>
+		</td>
+		<td>
+			male<input type="radio" name="gender" value="male">
+			female<input type="radio" name="gender" value="female">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<label for="address">ADDRESS</label>
+		</td>
+		<td>
+			<textarea name="address" rows="3" cols="20"></textarea>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<label for="Image">Upload Image</label>
+		</td>
+		<td>
+			<input type="file" name="image" value="image">
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<label for="self description">Self Description</label>
+		</td>
+		<td>
+			<textarea name="self description" rows="3" cols="20"></textarea>
+		</td>
+	</tr>
+
+
+	<tr>
+		<td>
+			<label for="Country">Country</label>
+		</td>
+		<td>
+			<input type="text" name="country" maxlength="30">(max 30 characters a-z and A-Z)
+		</td>
+	</tr>
+
+	<tr>
+		
+		<td></td>
+		<td class="buttons">
+			<input type="submit" name="submit" value="submit">
+			<input type="reset" name="reset" value="reset">
+		</td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
