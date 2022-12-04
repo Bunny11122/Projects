@@ -1,0 +1,16 @@
+.a{
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.text{
+	text-align: justify;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.heading{
+    text-align: center;
+    color: blue;
+}
