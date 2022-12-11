@@ -1,0 +1,220 @@
+
+body{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #35424a;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: yellow 5px solid;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+header li{
+    display: inline;
+    padding: 0 20px;
+}
+
+header .branding{
+    float: left;
+
+}
+
+header nav{
+    float: right;
+    margin-top: 22px;
+}
+
+#showcase{
+    min-height: 800px;
+    background-image: url(logo.jpg);
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -100px;
+}
+
+#showcase h1{
+    margin-top: 5px;
+    font-size: 50px;
+    margin-bottom:0;
+    padding-top: 5%;
+   float: inline-end;
+   color: #35424a;
+
+}
+
+#showcase p{
+    font-size: 20px;
+    padding-top: 6%;
+    padding-left: 45%;
+    text-align: justify;
+    color:black;
+}
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    border: #35424a;
+    border-radius: 5px;
+    border-color: aqua;
+}
+.fa-user{
+    font-size: 80px;
+    color: red;
+}
+.fa-brands{
+    font-size: 50px;
+}
+footer{
+    padding: 20px;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    margin-top: 250px;
+}
+.container1 h2{
+    margin-top: 25%;
+    text-align: center;
+    color: #35424a;
+   
+}
+.container1{
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+.container1 h3{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2em;
+    font-style: normal;
+    color: #35424a;
+}
+.field1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+.actions{
+    text-align: center;
+}
+
+.cards{
+    padding-top: 100px;
+    margin-right: 10px;
+    margin-top: 30px;
+	display:flex;
+	justify-content:space-evenly;
+}
+.c1{
+	background:#dbd9f5;
+	height: 240px;
+	width: 200px;
+	color: #35424a;
+	text-align: center;
+	border-radius: 4px;
+	line-height: 15px;
+}
+
+.c1:hover{
+	background: grey;
+	color: white;
+}
+.c1 img{
+	padding-top: 10px;
+	height: 50px;
+	width: 50px;
+}
+.c2{
+	background:#dbd9f5;
+	height: 240px;
+	width: 200px;
+	color: #35424a;
+	text-align: center;
+	border-radius: 4px;
+	line-height: 15px;
+	
+}
+.c2:hover{
+	background:grey;
+	color: white;
+}
+.c2 img{
+	padding-top: 10px;
+	height: 50px;
+	width: 50px;
+}
+.c3{
+	background:#dbd9f5;
+	height: 240px;
+	width: 200px;
+	color: #35424a;
+	text-align: center;
+	border-radius: 4px;
+	line-height: 15px;
+}
+.c3:hover{
+	background:grey;
+	color:white;
+}
+.c3 img{
+	padding-top: 10px;
+	height: 50px;
+	width: 50px;
+}
+.c4{
+	background:#dbd9f5;
+	height: 240px;
+	width: 200px;
+	color: #35424a;
+	text-align: center;
+	border-radius: 4px;
+	line-height: 15px;
+	
+}
+.c4:hover{
+	background:grey;
+	color: white;
+}
+.c4 img{
+	padding-top: 10px;
+	height: 50px;
+	width: 50px;
+}
+
+    
