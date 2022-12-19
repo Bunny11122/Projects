@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+.container{
+    font-family: "Karla";
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+   
+}
+
+.box1{
+    margin: auto;
+    width:560px;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 10px;
+    border: 2px solid white;
+    font-size: 16px;
+}
+.box1 h2{
+    color:hsl(179, 62%, 43%);
+}
+.box1 h3{
+    color:hsl(71, 73%, 54%);
+}
+.box1 p{
+    color:hsl(218, 22%, 67%);
+}
+
+.box2{
+    padding: 20px;
+    color: white;
+    background-color:  hsl(179, 62%, 43%);
+    border: 2px solid hsl(179, 62%, 43%) ;
+    font-size:16px;
+
+}
+.box2 small{
+   color: hsl(218, 22%, 67%)
+}
+.box2 p{
+    color:white;
+    font-size:16px;
+}
+.box2 button{
+    background-color:hsl(71, 73%, 54%);
+    margin-top: 5px;
+    border-radius: 5px;
+    padding:10px;
+    width:200px;
+    margin-top:30px;
+    color: white;
+}
+
+.box3{
+    padding: 20px;
+    background-color: hsl(170, 50%, 35%);
+    border: 2px solid hsl(170, 50%, 35%) ;
+    font-size:16px;
+    padding-right: 60px;
+
+}
+.box3 p{
+    color:hsl(218, 22%, 67%);
+}
+.box3 h2{
+    color:white
+}
+@media screen and (max-width:400px){
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .box1{
+        margin:0;
+        width:310px;
+    }
+
+}
