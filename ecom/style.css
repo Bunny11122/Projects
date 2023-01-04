@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    
+}
+
+.navBar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(40, 40, 134);
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.logo{
+    padding: 12px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    padding: 12px 20px;
+}
+
+.links ul li{
+    padding: 0 10px;
+}
+
+.btn{
+    position: absolute;
+    right: 20px;
+    top: 85px
+}
+
+
+.container{
+  padding: 50px 9px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}  
+
+.posts{
+    width:85%;
+    border: 1px solid black;
+   border-radius: 20px;
+   box-shadow:  0 0 8px rgb(93, 71, 31);
+   margin: 20px auto;
+
+}
+.profileInfo{
+    display: flex;
+    padding: 20px;
+}
+
+
+.profileInfo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    margin-right: 10px;
+  
+}
+
+.post{
+  text-align: center;
+}
+
+.post img{
+    height: 300px;
+    width: 80%;
+    border-radius: 17px;
+}
+.post p{
+    font-size: 10px;
+    margin-top: 4px;
+}
+.block p{
+    font-size: 10px;
+    color:rgb(82, 81, 81) ;
+    padding: 20px 10px;
+
+}
+
+.block h3{
+    color: rgb(82, 81, 81);
+       padding: 0px 10px;
+}
+
+
+/* theme switcher */
+.dark{
+   background-color: black;
+   color: white;
+   border: 1px solid white;
+   border-radius: 20px;
+   box-shadow:  0 0 8px wheat;
+}
+button{
+    background-color: rgb(40, 40, 134) ;
+    margin: auto;
+    width: 90px;
+    margin-left: 30px;
+    color:white;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    
+}
+
+@media screen and (max-width:380px) {
+    .container{
+        padding: 50px 9px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      } 
+    
+}
