@@ -1,0 +1,51 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 10%;
+    margin-top:20px;
+    padding: 20px 20px;
+    width:40%;
+    height:30%;
+    border:2px solid black;
+    border-radius: 5px; 
+}
+input{
+    width:80%;
+    margin: 10px 5px;
+}
+button{
+    width:20%;
+   float: right;
+   margin: 10px 10px;
+   padding: 5px 10px;
+   background-color: rgb(105, 44, 161);
+   color: white;
+
+}
+
+.comment{
+    margin-top: 20px;
+    padding: 20px 20px;
+    width:30%;
+    height:50%;
+    border:2px solid black;
+    border-radius: 5px;
+}
+
+.fa-solid{
+    padding: 20px 20px;
+    float:right;
+}
+.fa-regular{
+    padding: 20px 20px;
+}
